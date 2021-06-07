@@ -1,0 +1,35 @@
+.container-fluid {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* #service .far,
+.fas,
+.fab {
+    font-size: 70px;
+} */
+
+.portfolio-menu li {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+.portfolio-menu li:hover {
+    background-image: linear-gradient(to right, rgb(1, 105, 244), rgb(43, 217, 221));
+    color: #fff;
+    border-radius: 50px;
+    transition: .8s;
+}
+
+.portfolio-menu li:first-child {
+    background-image: linear-gradient(to right, rgb(1, 105, 244), rgb(43, 217, 221));
+    color: #fff;
+    border-radius: 50px;
+}
