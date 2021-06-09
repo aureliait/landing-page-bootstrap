@@ -33,3 +33,9 @@
     color: #fff;
     border-radius: 50px;
 }
+
+#portfolio img:hover {
+    filter: alpha(opacity=80);
+    opacity: .8;
+    cursor: pointer;
+}
